@@ -28,8 +28,9 @@ body {
 
 .wrap {
     min-width: 1000px;
+    min-height: 610px;
     width: 100%;
-    height: 700px;
+    height: 100vh;
     position: relative;
 }
 
@@ -116,6 +117,9 @@ nav>ul>li:hover>a {
     border-right: 1px solid #333;
 }
 
+
+
+
 main {
     width: 400px;
     /* background-color: salmon; */
@@ -129,7 +133,7 @@ main {
 
 
 .banner {
-    height: 25%;
+    height: 120px;
 }
 
 .banner>a {
@@ -156,7 +160,9 @@ main {
 
 
 .notice {
-    height: 30%;
+    height: calc(60% - 120px);
+    overflow: hidden;
+
 }
 
 .notice>ul {}
@@ -199,7 +205,8 @@ main {
 
 
 .gall {
-    height: 32%;
+    height: 40%;
+    overflow: hidden;
 
 }
 
